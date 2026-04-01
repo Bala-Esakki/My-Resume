@@ -1,0 +1,28 @@
+Spring Boot 
+
+controller
+service
+repository
+entity
+dto
+
+
+1. controller
+  if any api calls first the api is coming to the class
+
+  @restcontroller ---> combination of @controller & @responseBody
+  @controller --> 
+  @response_body ---> 
+  @postMapping --> Used for data saving
+  @getMapping ---> to get the data
+  @putMapping ---? to update the data
+  @patchMapping --> partial update the data
+  @deleteMapping ---> to delete the data
+
+  partial get data
+    create the DTO class and using these class to get the partial data.
+  
+
+  @request_param
+  @request_body
+  
