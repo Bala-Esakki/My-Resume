@@ -1,0 +1,61 @@
+OOPs
+1. Encapsualtion
+2. Polymorphism
+3. Inheritance
+4. Abstraction
+
+1. Encapsulation
+    The process of binding states and behaviour together is called as an encapsulation.
+    we can achieve encapsulaiton with help of class
+    In encapsulation helper method plays the major role.
+    Helper methods: 
+        Two types -> getter method & setter method
+          getter method is used to get the data
+          setter method is used to set the data
+
+    All the variables are in private accesser modifier
+    using public setter method used to set the data & public getter method used to get the data.
+
+    class Encapsulaiton_Ex {
+      private int id;
+      private String name;
+
+      //setter method
+      public static void setId(int id){
+        this.id = id;
+      }
+      public static void setName(String name){
+        this.name = name;
+      }
+
+      //getter method
+      public static int getId(){
+        return id;
+      }
+      public static String getName(){
+        return name;
+      }
+    }
+
+2. Polymorphism
+      The process of bin
+      There are two types of polymorphism
+        i. Compile time polymorphism
+        ii. Run time polymorphism
+
+      i). Compile Time polymorphism
+          There are 4types of compile type polymorphism
+          They are:     
+              * Method Overloading --> A class having same method name but different formual arguments.
+              * Constructor Overloading --> A class having same constructor name but different formual arguments.
+              * Method Shadowing --> A parent class & child class having the same static method signature.
+              * Variable Shadowing --> A parent class & child class having the same variable name.
+
+      2). Run time polymorphismn
+          There are only in run time polymorphism
+          That is Method OVerriding
+          Method Overriding:
+              The parent & child class having the same method signature is called as an method overriding
+              Note: non static method only
+
+
