@@ -17,4 +17,11 @@ Default Methods
     3. DeleteAll()
     4. DeleteAllById()
 
+  Count & Exists Methods
+    1. count()
+    2. existsById(ID id)
+
+  Pagination & sorting
+    1. findAll(Pageable pageable)
+    2. findAll(Sort sort)
 
