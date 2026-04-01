@@ -1,0 +1,20 @@
+JPA - Java Persistence API
+
+JPA - Repository file
+Default Methods
+  Save Methods:
+    1. Save(entity)
+    2. SaveAll(Iterable entities)
+  
+  Find Methods
+    1. FindById(id id)
+    2. FindAll()
+    3. FindAllById(Iterable<Id> id)
+
+  Delete Methods
+    1. DeleteById(id id)
+    2. Delete(entity)
+    3. DeleteAll()
+    4. DeleteAllById()
+
+
